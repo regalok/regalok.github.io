@@ -1,0 +1,105 @@
+body{
+    background-image: url("images/fondo.jpg");
+    background-size: 100%;    
+    background-repeat: no-repeat;
+    background-color: #f2bbbb;
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    text-decoration: underline transparent; 
+}
+
+button{
+    background-color: #c8b8d9;
+    border: transparent;
+    border-radius: 50px;
+    color: black;
+    text-decoration: underline transparent; 
+    font-size: x-large;
+    margin-top: 5px;
+    margin-bottom: 10 px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+
+li:hover{
+    cursor:pointer;
+    background-color: #c8b8d9;
+}
+
+#primer_txt{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    grid-column: 1/3;
+}
+
+#album{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    margin-right: 0;
+    grid-column: 4/5;
+}
+.imgLista{
+    margin-top: 9px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 9px;
+}
+
+
+#container_top{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.ls_cards{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+}
+
+#cards_izq{
+    align-self: center;
+    border-radius: 25px;
+    flex-grow: 1;
+    width: 50%;
+    gap: 5%;
+}
+
+#middle_text{
+    flex-grow: 2;
+    width: 50%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#foto_conte{
+    flex-grow: 1;
+}
+
+#decor_conte{
+    flex-grow: 2;
+    width: 100%;
+}
+
+.links :hover{
+    cursor:pointer;
+    background-color: #c8b8d9;
+    border-radius: 25px;
+}
+
+#last_card{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 0px;
+}
